@@ -10,10 +10,8 @@ app.use(morgan('combined'));
 
 app.get('/greet/:name', (req, res) => {
     const name = req.params.name;
-    const greet = ultraGreeter(name);
-    const greetHtml = greet.replace(/\n/g, "<br/>");
-    console.log(greetHtml);
-    res.send(greetHtml);
+    const greet = ultraGreeter(name).replace(/\n/g, "<br/>");
+    res.send(greet);
 });
 
 app.use((req, res, next) => {
