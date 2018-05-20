@@ -1,6 +1,6 @@
 {
     "name": "dj-ultra-greeter",
-    "version": "1.0.0",
+    "version": "1.0.1-0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -9,7 +9,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "dj-greeter": "^1.0.0",
+        "dj-greeter": "^2.0.0",
         "figlet": "^1.2.0"
     }
 }
